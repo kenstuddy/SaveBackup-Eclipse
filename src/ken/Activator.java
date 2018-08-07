@@ -105,7 +105,7 @@ public class Activator extends AbstractUIPlugin {
                                         
                                         //Since the destination path (the output file) originally contains the current file name without the date and time, we must prepend the date and time to the filename.
                                         dest = dest.replace("." + resource.getFileExtension(), "-" + logTime + "." + resource.getFileExtension());
-                                        System.out.println(dest);
+                                        
                                         try {
                                             //We don't actually do anything with this file other than use it for creating parent folders if they don't already exist.
                                             File newFile = new File(dest);
