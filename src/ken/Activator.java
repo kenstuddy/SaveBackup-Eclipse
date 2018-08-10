@@ -143,7 +143,7 @@ public class Activator extends AbstractUIPlugin {
 
     }
     /**
-     * This is a wrapper for the copy method of the Java Files class. The files class has been available since Java SE 7,
+     * This is a wrapper for the copy method of the Java Files class. The Files class has been available since Java SE 7,
      * so it makes sense to make use of it instead of older ways of copying files.
      * @param sourcePath
      * @param destinationPath
