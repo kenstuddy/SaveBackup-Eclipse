@@ -114,7 +114,7 @@ public class Activator extends AbstractUIPlugin {
                                             if (!newFile.getParentFile().exists()) {
                                                 newFile.getParentFile().mkdirs();
                                             }
-                                            //Here we call our static copy wrapper method and pass two stings to it, 
+                                            //Here we call our static copy wrapper method and pass two stings to it. 
                                             copy(src, dest);
                                         } catch (IOException e) {
                                             e.printStackTrace();
