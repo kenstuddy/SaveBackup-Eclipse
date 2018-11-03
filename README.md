@@ -2,7 +2,7 @@
 This Eclipse IDE plugin saves a backup copy of your current open file every time you save the file.
 
 # Requirements
-Eclipse 3.4 or newer
+Eclipse version 3.4 or newer
 
 # How to Install
 Note: Instructions may differ based on your operating system. These instructions are written for Linux.
