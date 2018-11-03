@@ -103,7 +103,7 @@ public class Activator extends AbstractUIPlugin {
                                         //Here is the date and time that the file is saved at.
                                         logTime = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(Calendar.getInstance().getTime());
                                         
-                                        //Since the destination path (the output file) originally contains the current file name without the date and time, we must prepend the date and time to the filename.
+                                        //Since the destination path (the output file) originally contains the current file name without the date and time, we must append the date and time to the filename.
                                         dest = dest.replace("." + resource.getFileExtension(), "-" + logTime + "." + resource.getFileExtension());
                                         
                                         try {
